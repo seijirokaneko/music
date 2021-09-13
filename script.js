@@ -193,7 +193,7 @@ title.forEach((v, i) => {
 })
 
 $(".lists li").click(function() {
-    playlist_index = this.ivalue;
+    playlist_index = this.value;
     document.querySelector(".playpause").classList.add("active");
     fetchMusicDetail();
     list.checked = false;
