@@ -56,9 +56,9 @@ a {
     height: 100%;
     padding: 8rem 0.5rem 0;
     background: var(--bg);
-    transition: 0.5s;
+    transition: 0.2s;
     box-shadow: var(--color-shadow);
-    z-index: 999;
+    z-index: 99;
 }
 
 .lists.active {
